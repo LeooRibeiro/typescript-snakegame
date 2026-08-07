@@ -7,7 +7,7 @@ npm install
 npm run dev
 ```
 
-## Relatório do projeto:
+## 📃 Relatório do projeto:
 
 Remasterização completa do clássico **Jogo da Cobrinha** com **TypeScript**, **Vite** (bundler e dev server com HMR). O projeto evoluiu de
 um único arquivo `script.js` vanilla para uma **arquitetura em camadas**, modular
@@ -51,7 +51,7 @@ O jogo original era 100% vanilla JavaScript, em um único arquivo:
 - **Assets unificados** — mantida apenas a pasta-fonte `assets/` na raiz;
   `dist/assets/` é a saída gerada automaticamente pelo build.
 
-## Estrutura
+## 🏛️ Estrutura
 
 A arquitetura está organizada em camadas com responsabilidades bem definidas:
 
