@@ -1,33 +1,15 @@
-# SnakeGame · Remasterizado
+# 🐍 SnakeGame · Remasterizado
 
-Jogo da cobrinha reescrito do zero em **TypeScript** com **Vite**.
-
-## Como rodar
+## instalação do projeto:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Build de produção:
+## Relatório do projeto:
 
-```bash
-npm run build
-npm run preview
-```
-
-Checagem de tipos:
-
-```bash
-npm run typecheck
-```
-
-## Relatório do projeto
-
-### Visão geral
-
-Remasterização completa do clássico **Jogo da Cobrinha**, reescrito do zero em
-**TypeScript** com **Vite** (bundler e dev server com HMR). O projeto evoluiu de
+Remasterização completa do clássico **Jogo da Cobrinha** com **TypeScript**, **Vite** (bundler e dev server com HMR). O projeto evoluiu de
 um único arquivo `script.js` vanilla para uma **arquitetura em camadas**, modular
 e tipada em modo estrito.
 
@@ -68,27 +50,6 @@ O jogo original era 100% vanilla JavaScript, em um único arquivo:
   limitando o buffer (`MAX_BUFFER = 3`).
 - **Assets unificados** — mantida apenas a pasta-fonte `assets/` na raiz;
   `dist/assets/` é a saída gerada automaticamente pelo build.
-
-### Resumo comparativo
-
-| | v1.0.0 (JS) | v2.0.0 (TS) |
-|---|---|---|
-| Linguagem | JavaScript vanilla | TypeScript strict |
-| Build | não | Vite |
-| Loop | `setTimeout(300)` | `requestAnimationFrame` + delta |
-| Arquitetura | arquivo único | camadas modular |
-| Input | setas | setas + WASD + buffer |
-| Velocidade | fixa | progressiva (níveis) |
-| Recorde | não | localStorage |
-| Pausa | não | Espaço |
-| Som | não | sim (ao comer) |
-| Visual | simples | gradiente, olhos, brilho, overlays |
-
-## Controles
-
-- **Setas** ou **WASD** para mover
-- **Espaço** para pausar / continuar
-- **Clique no botão** para começar / reiniciar
 
 ## Estrutura
 
