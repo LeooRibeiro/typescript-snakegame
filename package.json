@@ -1,0 +1,17 @@
+{
+  "name": "typescript-snakegame",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Remasterized Snake game built with Vite and TypeScript",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
